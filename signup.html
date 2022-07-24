@@ -1,0 +1,58 @@
+
+
+
+
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import {initializeApp} from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyACr-0JCB1bxgH18ZnXy-G_5yKyDHA2bGs",
+      authDomain: "studykomos.firebaseapp.com",
+      projectId: "studykomos",
+      storageBucket: "studykomos.appspot.com",
+      messagingSenderId: "994850627965",
+      appId: "1:994850627965:web:03feca977579580e8cac14"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    import {getFirestore, doc, setDoc, getDoc, collection, addDoc} from "https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.js";
+
+
+    const db = getFirestore();
+
+
+    // add to database function
+
+
+    async function adduser() {
+      console.log("function fired");
+      window.open("/success.html");
+      var ref = collection(db, "users");
+      const docRef = await addDoc(
+        ref, {
+          username: document.getElementById("username").value,
+          email: document.getElementById("email").value,
+          password: document.getElementById("password").value
+      })
+
+
+    }
+
+    const element = document.getElementById("submit");
+    console.log("okay at least it works this far");
+    element.addEventListener("click", adduser);
+  </script>
+
+<script src="signup.js"></script>
+
+
+
+
+

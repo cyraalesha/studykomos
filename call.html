@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Using Agora</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="call.css" />
+    </head>
+    <body>
+        <a href="landing.html" id="logo">
+            <img src="resources/KomoLogo.png">
+        </a>
+        <button id="join-btn">Join Stream</button>
+        
+        <div id="stream-wrapper">
+            <div id="video-streams" class=""></div>
+            <div id="stream-controls">
+                <button id="leave-btn">Leave Stream</button>
+                <button id="mic-btn">Mic On</button>
+                <button id="camera-btn">Camera On</button>
+            </div>
+        </div>
+    </body>
+    <script src="AgoraRTC_N-4.12.2.js"></script>
+    <script src="call.js"></script>
+</html>

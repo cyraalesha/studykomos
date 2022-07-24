@@ -1,0 +1,50 @@
+.main-container {
+    height: auto;
+    min-height: 100vh;
+}
+
+.navbar {
+    height: 9.1vh;
+}
+
+.navbar p {
+    width: auto;
+}
+
+.card3-container {
+    min-height: 100vh;
+}
+
+.category-col {
+    margin: 0 3%;
+    padding: 1% 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.cate-card {
+    margin: 10px;
+    flex-basis: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 7%;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.cate-card h1{
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.cate-card ul {
+    list-style-type: none;
+}
+
+.cate-card a:hover {
+    color: green;
+}

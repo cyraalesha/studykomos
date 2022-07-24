@@ -1,0 +1,48 @@
+#join-btn{
+    width: 50%;
+    height: 25%;
+    font-size:2.4vh;
+    border-radius: 0.6em;
+    box-sizing: border-box
+}
+
+#video-streams{
+/*     display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); */
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.video-container{
+    height: 100%;
+}
+
+.video-player{
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    border:none;
+    background-color: cadetblue;
+    color:#fff;
+    padding:4%;
+    font-size:1.6vh;
+    cursor: pointer;
+}
+
+#stream-controls{
+    display: none;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 60%;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1400px){
+    #video-streams{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        width: 95%;
+    }
+}

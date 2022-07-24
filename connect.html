@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>Komodo Hacks | Home Page</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="landing.html">
+          <img src="resources/KomoLogo.png">
+        </a>
+        <a href="call.html" id="call-logo-icon">
+          <img src="resources/callButton.png">
+        </a>
+      </div>
+      <a id="category" onClick='window.location.href = "/category.html";'>No Category</p>
+        <a class="profile-pic" href="profile.html">
+       11th Grade Mathematics="resources/sampleProfile.png">
+        </a>
+    </div>
+    <div class="card3-container">
+      <div class="fb33 card3 user user1">
+        <div id="stream-wrapper" class="profile-pic user-stream">
+          <div id="video-streams"></div>
+        </div>
+        <p class="username">Cyra Alesha</p>
+        <p>Loves reading novels, programmming. Winner of some random business competition. Idk my desc hahahha</p>
+      </div>
+      <div class="fb33 card3 call">
+        <div class="fb50 call-item caluniversity of southampton        <img src="reso">
+        </div>
+        <div class="fb50 call-item call-button">
+          <button id="join-btn">Join Stream</button>
+          <div id="stream-controls">
+            <button id="leave-btn">Leave Stream</button>
+            <button id="mic-btn">Mic On</button>
+            <button id="camera-btn">Camera On</button>
+          </div>
+        </div>
+      </div>
+      <div class="fb33 card3 user user2">
+        <div id="stream-wrapper" class="profile-pic user-stream">
+          <div id="video-streams"></div>
+        </div>
+        <p class="username">Username</p>
+        <p>User description regarding hobbies, interests and study focus.</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="AgoraRTC_N-4.12.2.js"></script>
+<script src="main.js"></script>
+<script src="script2.js"></script>
+<script>
+  catLoader();
+</script>
+
+</html>

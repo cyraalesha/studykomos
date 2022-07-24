@@ -1,0 +1,54 @@
+
+
+*{
+  background-color: #d8e6ed;
+}
+
+.main-profile{
+  /* background-color: #3487b1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-profile{
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
+  width: 400px;
+  border: solid black 2px;
+  /* max-width: 50px; */
+}
+.info{
+  background-color: white;
+  display: flex;
+}
+.answer{
+  background-color: white;
+  color: #696969;
+  padding-left: 16px;
+}
+button{
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.buttons{
+  background-color: white;
+  display: flex;
+}
+
+.Edit_button{
+  background-color: #b8b6b6;
+}
+.Setting_button{
+  
+  background-color: #b8b6b6;
+}
